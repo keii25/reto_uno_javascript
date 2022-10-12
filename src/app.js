@@ -1,14 +1,17 @@
-let scanf = require('scanf')
+var scanf = require('scanf')
 
 console.log("Ingresar Edad: ")
-let edad = scanf('%d')
+let age = scanf('%d')
 
-if(Number(edad) === edad){
-    if(edad >= 18){
-        console.log("Puede Conducir")
-    }else{
-        console.log("No puede conducir. ")
-    }
-}else{
+isAdult = 18
+
+if(isNaN(age))
     console.log('Debe introducir un numero valido')
-}
+else
+    if (age >= isAdult)
+        console.log("Puede Conducir")
+    else
+        console.log("No Puede Conducir")
+
+
+
