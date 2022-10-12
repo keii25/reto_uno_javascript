@@ -4,7 +4,7 @@
   "description": "Ejercicios Basicos de Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node scr/app.js"
   },
   "repository": {
     "type": "git",
